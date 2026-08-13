@@ -1,0 +1,764 @@
+{
+  "story_id": "underwater_adventure",
+  "story_title": "DENİZ ALTI MACERASI: PARLAK İNCİ",
+  "start_node_id": "page_1",
+  "theme_color": "0xff00b0ff",
+  "nodes": {
+    "page_1": {
+      "id": "page_1",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Mavi ve büyük bir denizin altındasın. Etrafında renkli balıklar yüzüyor. Önünde iki güzel yol var.",
+      "backgroundPath": "images/underwater/backgrounds/sea_start.jpg",
+      "audioPath": "audio/sea_ambient.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Mercan ormanına doğru yüz",
+          "nextNodeId": "page_2",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Derin mavi boşluğa doğru yüz",
+          "nextNodeId": "page_3",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_2": {
+      "id": "page_2",
+      "speakerName": "Mavi Yunus",
+      "dialogueText": "Merhaba küçük arkadaşım! Denizler Kralı çok yaşlandı ve sihirli incisini kaybetti. Onu bulabilir miyiz?",
+      "backgroundPath": "images/underwater/backgrounds/coral_forest.jpg",
+      "audioPath": "audio/dolphin_theme.mp3",
+      "characterSpritePath": "images/characters/dolphin_friendly.png",
+      "choices": [
+        {
+          "text": "\"Hemen arayalım!\" de",
+          "nextNodeId": "page_4",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "\"İnci nerede düşmüş?\" diye sor",
+          "nextNodeId": "page_5",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Büyük batık gemiye git",
+          "nextNodeId": "page_6",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_3": {
+      "id": "page_3",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Karşına çok sevimli bir deniz kaplumbağası çıkıyor. Sana dostça bakıyor ve parlayan sarı bir deniz kabuğu gösteriyor.",
+      "backgroundPath": "images/underwater/backgrounds/deep_blue.jpg",
+      "audioPath": "audio/turtle_swim.mp3",
+      "characterSpritePath": "images/characters/turtle_baby.png",
+      "choices": [
+        {
+          "text": "Kaplumbağayı takip edip mağaraya gir",
+          "nextNodeId": "page_7",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Deniz kabuğunu al ve geri dön",
+          "nextNodeId": "page_8",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_4": {
+      "id": "page_4",
+      "speakerName": "Mavi Yunus",
+      "dialogueText": "Çok iyi bir kalbin var! Al bu parlak yıldız balığını. Karanlık yerlerde sana yol gösterecek.",
+      "backgroundPath": "images/underwater/backgrounds/coral_forest.jpg",
+      "audioPath": null,
+      "characterSpritePath": "images/characters/dolphin_friendly.png",
+      "choices": [
+        {
+          "text": "Deniz yosunu bahçesine git",
+          "nextNodeId": "page_9",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Denizatı köyüne uğra",
+          "nextNodeId": "page_10",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_5": {
+      "id": "page_5",
+      "speakerName": "Mavi Yunus",
+      "dialogueText": "İnci, dev ahtapotun yaşadığı karanlık bölgede kayboldu. Oraya gitmek için cesur olmak gerekiyor.",
+      "backgroundPath": "images/underwater/backgrounds/coral_forest.jpg",
+      "audioPath": null,
+      "characterSpritePath": "images/characters/dolphin_concerned.png",
+      "choices": [
+        {
+          "text": "Karanlık bölgeye gitmeyi kabul et",
+          "nextNodeId": "page_4",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Önce batık gemiye bakmak iste",
+          "nextNodeId": "page_11",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_6": {
+      "id": "page_6",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Eski ve büyük bir batık geminin içindesin. Etrafta eski sandıklar var. Yukarıda bir kapı duruyor.",
+      "backgroundPath": "images/underwater/backgrounds/shipwreck.jpg",
+      "audioPath": "audio/creaky_ship.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Büyük tahta kapıdan geç",
+          "nextNodeId": "page_12",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Aşağıdaki parlayan odaya in",
+          "nextNodeId": "page_13",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_7": {
+      "id": "page_7",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Mağaranın içi parıl parıl parlıyor. Renkli taşlar var. Yerde kilitli mavi bir sandık duruyor.",
+      "backgroundPath": "images/underwater/backgrounds/crystal_cave.jpg",
+      "audioPath": "audio/cave_water.mp3",
+      "characterSpritePath": "images/characters/turtle_baby.png",
+      "choices": [
+        {
+          "text": "Sandığı açmak için dokun",
+          "nextNodeId": "page_14",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "\"Açıl küçük sandık!\" de",
+          "nextNodeId": "page_15",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_8": {
+      "id": "page_8",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Deniz kabuğuyla yüzerken küçük bir deniz evi görüyorsun. Evin pencerelerinden baloncuklar çıkıyor.",
+      "backgroundPath": "images/underwater/backgrounds/sea_cottage.jpg",
+      "audioPath": null,
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Evin kapısını çal",
+          "nextNodeId": "page_16",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Evin yanındaki su kuyusuna bak",
+          "nextNodeId": "page_17",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_9": {
+      "id": "page_9",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Yosun bahçesinde büyük, eski bir deniz kaplumbağası oturuyor. Canı sıkıldığı için şarkı söylüyor.",
+      "backgroundPath": "images/underwater/backgrounds/kelp_forest.jpg",
+      "audioPath": "audio/turtle_song.mp3",
+      "characterSpritePath": "images/characters/old_turtle.png",
+      "choices": [
+        {
+          "text": "Ona yıldız balığını göster",
+          "nextNodeId": "page_18",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Yosunları ellerinle temizle",
+          "nextNodeId": "page_19",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_10": {
+      "id": "page_10",
+      "speakerName": "Denizatı Şefi",
+      "dialogueText": "Hoş geldin! Al bu sihirli balonu. Bu balon seni çok hızlı yüzdürür. Onu iyi işlerde kullan.",
+      "backgroundPath": "images/underwater/backgrounds/seahorse_village.jpg",
+      "audioPath": null,
+      "characterSpritePath": "images/characters/seahorse_chief.png",
+      "choices": [
+        {
+          "text": "Teşekkür et ve bahçeye git",
+          "nextNodeId": "page_19",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Sihirli balonla gemiye uç",
+          "nextNodeId": "page_6",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_11": {
+      "id": "page_11",
+      "speakerName": "Mavi Yunus",
+      "dialogueText": "Batık gemi mi? Orada eski korsan hikayeleri var. Dikkatli olmalısın ama sen çok zekisin.",
+      "backgroundPath": "images/underwater/backgrounds/coral_forest.jpg",
+      "audioPath": null,
+      "characterSpritePath": "images/characters/dolphin_concerned.png",
+      "choices": [
+        {
+          "text": "Gemiye doğru neşeyle yüz",
+          "nextNodeId": "page_6",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Fikrini değiştir ve yosunlara dön",
+          "nextNodeId": "page_9",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_12": {
+      "id": "page_12",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Kapıdan geçiyorsun. Gemi arkanda kalıyor. Şimdi dev bir su altı sarayının önündesin.",
+      "backgroundPath": "images/underwater/backgrounds/palace_entrance.jpg",
+      "audioPath": "audio/palace_fanfare.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Sarayın büyük kapısını aç",
+          "nextNodeId": "page_20",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Sarayın bahçesine doğru yüz",
+          "nextNodeId": "page_21",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_13": {
+      "id": "page_13",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Oda harika görünüyor! Burada parlayan mavi deniz yıldızları var. Bir Ruh Balığı sana bakıp gülümsüyor.",
+      "backgroundPath": "images/underwater/backgrounds/glowing_room.jpg",
+      "audioPath": "audio/spirit_fish.mp3",
+      "characterSpritePath": "images/characters/spirit_fish.png",
+      "choices": [
+        {
+          "text": "Ruh Balığına el salla",
+          "nextNodeId": "page_22",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Yerden mavi bir yıldız al",
+          "nextNodeId": "page_23",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_14": {
+      "id": "page_14",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Sandığa dokununca komik baloncuklar çıkıyor! Küçük deniz feneri balıkları uyanıyor ve dans ediyor.",
+      "backgroundPath": "images/underwater/backgrounds/crystal_cave.jpg",
+      "audioPath": "audio/bubble_pop.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Dışarıya, açık denize çık",
+          "nextNodeId": "page_8",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Balıklarla dans et",
+          "nextNodeId": "page_24",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_15": {
+      "id": "page_15",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Sandık açılıyor. İçinden parlayan pembe bir inci çıkıyor. Bu inci sana dilek hakkı veriyor.",
+      "backgroundPath": "images/underwater/backgrounds/open_chest.jpg",
+      "audioPath": "audio/magic_chime.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "İnciyi al ve Yunus'a götür",
+          "nextNodeId": "page_2",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "İnciyle mağarada oyun oyna",
+          "nextNodeId": "page_25",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_16": {
+      "id": "page_16",
+      "speakerName": "Deniz Teyze",
+      "dialogueText": "Kim geldi? Hoş geldin tatlı çocuk. Benden lezzetli bir deniz yosunu kurabiyesi mi istiyorsun?",
+      "backgroundPath": "images/underwater/backgrounds/cottage_interior.jpg",
+      "audioPath": null,
+      "characterSpritePath": "images/characters/sea_elder.png",
+      "choices": [
+        {
+          "text": "Kralın kayıp incisini sor",
+          "nextNodeId": "page_26",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Büyük ahtapotun yerini sor",
+          "nextNodeId": "page_27",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_17": {
+      "id": "page_17",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Kuyuya bakıyorsun. İçinde su değil, parlayan renkli ışıklar var. Bir ses senin adını söylüyor.",
+      "backgroundPath": "images/underwater/backgrounds/sea_well.jpg",
+      "audioPath": "audio/well_glow.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Parlayan kuyunun içine gir",
+          "nextNodeId": "page_28",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Geri dön ve ilk yola git",
+          "nextNodeId": "page_1",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_18": {
+      "id": "page_18",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Yıldız balığı parlıyor. Kötü yosunlar çekiliyor. Yaşlı kaplumbağa çok mutlu oluyor ve incinin yerini gösteriyor.",
+      "backgroundPath": "images/underwater/backgrounds/clean_kelp.jpg",
+      "audioPath": "audio/heal_sea.mp3",
+      "characterSpritePath": "images/characters/happy_turtle.png",
+      "choices": [
+        {
+          "text": "Kaplumbağa ile Saraya git",
+          "nextNodeId": "page_29",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Oyunu burada bitir (Son 1)",
+          "nextNodeId": "page_31_ending_1",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_19": {
+      "id": "page_19",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Yosunları çekiyorsun ama çok zor. Çok yoruldun. Yumuşak kumların üzerinde dinlenmek istiyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/kelp_forest.jpg",
+      "audioPath": null,
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Yıldız balığını yosunlara koy",
+          "nextNodeId": "page_18",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Kumlarda tatlı bir uyku uyu (Son 2)",
+          "nextNodeId": "page_31_ending_2",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_20": {
+      "id": "page_20",
+      "speakerName": "Denizler Kralı",
+      "dialogueText": "Aman Allah'ım! Sarayıma cesur bir çocuk gelmiş. Kayıp incimi bulmaya hazır mısın?",
+      "backgroundPath": "images/underwater/backgrounds/throne_room.jpg",
+      "audioPath": "audio/king_theme.mp3",
+      "characterSpritePath": "images/characters/sea_king.png",
+      "choices": [
+        {
+          "text": "Ona güzel bir şarkı söyle",
+          "nextNodeId": "page_29",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Ona topladığın deniz kabuğunu ver",
+          "nextNodeId": "page_27",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_21": {
+      "id": "page_21",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Sarayın bahçesinde renkli boyalar ve büyük mavi bir cam taş buluyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/palace_garden.jpg",
+      "audioPath": null,
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Mavi cam taşı parlat",
+          "nextNodeId": "page_31_ending_1",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Boyaları al ve odaya git",
+          "nextNodeId": "page_13",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_22": {
+      "id": "page_22",
+      "speakerName": "Ruh Balığı",
+      "dialogueText": "Sen harika bir çocuksun. Al bu sihirli su yıldızını. O seni her zaman koruyacak.",
+      "backgroundPath": "images/underwater/backgrounds/glowing_room.jpg",
+      "audioPath": "audio/blessing.mp3",
+      "characterSpritePath": "images/characters/spirit_fish.png",
+      "choices": [
+        {
+          "text": "Su yıldızıyla saraya git",
+          "nextNodeId": "page_12",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Yunus arkadaşına haber ver",
+          "nextNodeId": "page_2",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_23": {
+      "id": "page_23",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Yıldızı alınca her yer biraz kararıyor. Ruh Balığı üzülüyor. Kendini boş bir kumsalda buluyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/empty_beach.jpg",
+      "audioPath": "audio/wind.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Denize geri dönmek için yüz",
+          "nextNodeId": "page_6",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Kumsalda küçük bir kale yap (Son 3)",
+          "nextNodeId": "page_31_ending_3",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_24": {
+      "id": "page_24",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Balıklarla dans ederken yukarıdan parlak sarı bir anahtar düşüyor ve eline geliyor.",
+      "backgroundPath": "images/underwater/backgrounds/crystal_cave.jpg",
+      "audioPath": "audio/key_drop.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Anahtarı mavi sandıkta dene",
+          "nextNodeId": "page_15",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Anahtarı alıp eve doğru yüz",
+          "nextNodeId": "page_8",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_25": {
+      "id": "page_25",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Mağaranın derinliklerinde büyük, kırmızı bir deniz ejderhası uyuyor. Burnundan komik köpükler çıkarıyor.",
+      "backgroundPath": "images/underwater/backgrounds/dragon_cave.jpg",
+      "audioPath": "audio/dragon_snore.mp3",
+      "characterSpritePath": "images/characters/sea_dragon.png",
+      "choices": [
+        {
+          "text": "Ejderhayı uyandırıp arkadaş ol",
+          "nextNodeId": "page_29",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Korkmadan yavaşça yanından kaç",
+          "nextNodeId": "page_17",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_26": {
+      "id": "page_26",
+      "speakerName": "Deniz Teyze",
+      "dialogueText": "Kayıp inci mi? Onu bulmak için mavi odaya gitmelisin. Oradaki ışık sana yardım eder.",
+      "backgroundPath": "images/underwater/backgrounds/cottage_interior.jpg",
+      "audioPath": null,
+      "characterSpritePath": "images/characters/sea_elder.png",
+      "choices": [
+        {
+          "text": "Mavi odayı bulmak için yüz",
+          "nextNodeId": "page_13",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Evdeki kurabiyelerden ye (Son 4)",
+          "nextNodeId": "page_31_ending_4",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_27": {
+      "id": "page_27",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Kral sana komik bir şaka yapıyor! Her yer renkli baloncuklarla doluyor. Çok eğlenceli!",
+      "backgroundPath": "images/underwater/backgrounds/bubble_maze.jpg",
+      "audioPath": "audio/laughter.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Baloncukları patlatarak çıkışı ara",
+          "nextNodeId": "page_14",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Baloncukların içinde kalıp oyna (Son 5)",
+          "nextNodeId": "page_31_ending_5",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_28": {
+      "id": "page_28",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Kuyudan aşağı kayıyorsun ve pofuduk bir koltuğa düşüyorsun. Burası senin kendi odan! Meğer hepsi bir bilgisayar oyunuymuş!",
+      "backgroundPath": "images/underwater/backgrounds/player_room.jpg",
+      "audioPath": "audio/game_clear.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Oyunu tekrar başlat",
+          "nextNodeId": "page_1",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Bilgisayarı kapatıp arkadaşlarınla parka git (Son 6)",
+          "nextNodeId": "page_31_ending_6",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_29": {
+      "id": "page_29",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Büyük gün geldi! Bütün deniz dostların toplandı. İnciyi yerine koyuyorsun ve denizler parlıyor.",
+      "backgroundPath": "images/underwater/backgrounds/celebration.jpg",
+      "audioPath": "audio/victory_march.mp3",
+      "characterSpritePath": "images/characters/sea_king.png",
+      "choices": [
+        {
+          "text": "Büyük şöleni başlat (Son 7)",
+          "nextNodeId": "page_31_ending_7",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Deniz atına binip tura çık (Son 8)",
+          "nextNodeId": "page_31_ending_8",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_30": {
+      "id": "page_30",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "Sarayın gizli kapısından geçince karşına dev bir akvaryum çıkıyor. İçeride çok tatlı küçük balıklar yüzüyor.",
+      "backgroundPath": "images/underwater/backgrounds/secret_aquarium.jpg",
+      "audioPath": "audio/gentle_music.mp3",
+      "characterSpritePath": null,
+      "choices": [
+        {
+          "text": "Küçük balıkları besle (Son 9)",
+          "nextNodeId": "page_31_ending_9",
+          "backgroundPath": null,
+          "audioPath": null
+        },
+        {
+          "text": "Deniz yıldızlarıyla uykuya dal (Son 10)",
+          "nextNodeId": "page_31_ending_10",
+          "backgroundPath": null,
+          "audioPath": null
+        }
+      ]
+    },
+    "page_31_ending_1": {
+      "id": "page_31_ending_1",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 1: DENİZİN KAHRAMANI. Kralın incisi kurtuldu. Yunuslarla beraber her gün lezzetli dondurmalar yiyip yüzüyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/happy_ending.jpg",
+      "audioPath": "audio/victory.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_2": {
+      "id": "page_31_ending_2",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 2: TATLI BİR UYKU. Bugün çok yüzdün ve yoruldun. Yumuşak yosunların üzerinde rüyalara dalıyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/sleepy_sea.jpg",
+      "audioPath": "audio/lullaby.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_3": {
+      "id": "page_31_ending_3",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 3: KUMDAN KALE. Kumsalda kendine çok büyük, harika bir şato yaptın. Şimdi orada oyunlar oynuyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/sand_castle.jpg",
+      "audioPath": "audio/beach_joy.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_4": {
+      "id": "page_31_ending_4",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 4: KURABİYE PARTİSİ. Deniz teyzenin kurabiyeleri o kadar tatlı ki, her gün orada kalıp tatlılar yiyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/cookie_party.jpg",
+      "audioPath": "audio/party_music.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_5": {
+      "id": "page_31_ending_5",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 5: BALONCUK DÜNYASI. Baloncukların içinde zıplamak çok eğlenceli. Sen artık baloncuklar ülkesinin neşesisin.",
+      "backgroundPath": "images/underwater/backgrounds/bubble_world.jpg",
+      "audioPath": "audio/funny_sound.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_6": {
+      "id": "page_31_ending_6",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 6: PARKA KOŞU. Bilgisayarı kapattın. Gerçek arkadaşlarınla saklambaç oynamak için dışarıya fırladın.",
+      "backgroundPath": "images/underwater/backgrounds/real_park.jpg",
+      "audioPath": "audio/kids_laughing.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_7": {
+      "id": "page_31_ending_7",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 7: BÜYÜK ŞÖLEN. Bütün deniz canlıları senin için dans ediyor. Sen bu krallığın en sevilen misafiri oldun.",
+      "backgroundPath": "images/underwater/backgrounds/grand_feast.jpg",
+      "audioPath": "audio/royal_victory.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_8": {
+      "id": "page_31_ending_8",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 8: DENİZATI SÜRÜCÜSÜ. Hızlı bir deniz atına bindin. Okyanusun bir ucundan diğer ucuna neşeyle geziyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/seahorse_ride.jpg",
+      "audioPath": "audio/fast_swim.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_9": {
+      "id": "page_31_ending_9",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 9: BALIKLARIN DOSTU. Küçük balıklar seni o kadar çok sevdi ki, sana minik deniz kabuklarından bir taç hediye ettiler.",
+      "backgroundPath": "images/underwater/backgrounds/fish_friends.jpg",
+      "audioPath": "audio/cute_melody.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    },
+    "page_31_ending_10": {
+      "id": "page_31_ending_10",
+      "speakerName": "Anlatıcı",
+      "dialogueText": "SON 10: DENİZ YILDIZI MASALI. Parlayan deniz yıldızları sana harika masallar anlatıyor. Huzur içinde gülümsüyorsun.",
+      "backgroundPath": "images/underwater/backgrounds/starfish_dream.jpg",
+      "audioPath": "audio/dreamy_music.mp3",
+      "characterSpritePath": null,
+      "choices": []
+    }
+  }
+}
